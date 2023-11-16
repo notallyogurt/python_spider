@@ -6,7 +6,7 @@ import openpyxl
 from lxml import etree
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-
+# test
 options = webdriver.ChromeOptions()
 # 去除“Chrome正受到自动测试软件的控制”的显示
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
